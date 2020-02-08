@@ -8,6 +8,8 @@
 ## This function creates a special matrix and creates a list for 
 ## cacheSolve to refer to in searching for cached inverses. 
 
+## JP - these functions seem to do everything needed in the assignment.
+
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
    
